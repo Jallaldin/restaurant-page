@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* 
+body {
+    font-family: 
+} */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+}
+
+footer {
+    background-color: #fff;
+    color: rgb(206, 54, 54);
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-title {
+    font-family: Dancing Script, cursive;
+    margin-left: 30px;
+    font-size: 2rem; 
+    color: rgb(206, 54, 54);
+}
+
+/* navbar */
+#menu:active, #home:active, #about:active {
+    background-color: black;
+}
+
+.nav-btn {
+    background-color: white;
+    color: grey;
+    border: none;
+    padding: 10px 20px;
+}
+
+.nav-btn:hover {
+    background-color: rgb(206, 54, 54);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* homepage split screen */
+.home-page {
+    display: flex;
+    height: 100vh;
+}
+
+.left-side, .right-side {
+    flex: 1;
+}
+
+.left-side {
+    background-color: rgb(206, 54, 54);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side h1 {
+    font-size: 7rem;
+    margin-bottom: 20px;
+    font-family: "Dancing Script", cursive;
+}
+
+.left-side .welcome-text {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: "Dancing Script", cursive;
+    width: 80%;
+    text-align: center;
+}
+
+.right-side {
+    background-color: blue;
+}
+
+.diner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.menu-button {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    z-index: 1;
+
+}
+
