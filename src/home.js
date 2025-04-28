@@ -21,7 +21,7 @@ export default function HomePage() {
 
     const welcomeText = document.createElement('p');
     const lineBreak = document.createElement('br');
-    welcomeText.textContent = `Welcome To Jallal's Diner! ${lineBreak} We serve the best food in town! From Breakfast, Lunch to Dinner and Delicious Desserts!`;
+    welcomeText.textContent = `Welcome To Jallal's Diner! We serve the best food in town! From Breakfast, Lunch to Dinner and Delicious Desserts!`;
     welcomeText.classList.add('welcome-text');
 
     leftDiv.append(welcomeTitle, welcomeText);

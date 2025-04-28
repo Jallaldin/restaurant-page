@@ -3,8 +3,7 @@
 // This code is only for planning purposes and will be later improved
 // import './src/styles.css'; 
 
-const content = document.getElementById('.content');
-
+const content = document.querySelector('.content');
 const resName = document.createElement('div');
 resName.innerHTML = `Jallal's Restaurant`
 

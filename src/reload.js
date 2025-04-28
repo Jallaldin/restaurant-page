@@ -5,7 +5,7 @@ import './styles.css';
 
 const content = document.querySelector('.content');
 
-HomePage(); // default page load
+MenuPage(); // default page load
 
 function handleButtonClick(e) {
     const buttonId = e.target.id;
