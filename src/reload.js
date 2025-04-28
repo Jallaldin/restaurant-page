@@ -1,6 +1,6 @@
 import HomePage from './home.js';
 import MenuPage from './menu.js';
-// import AboutPage from './about';
+import ContactPage from './contact.js';
 import './styles.css';
 
 const content = document.querySelector('.content');
@@ -18,9 +18,9 @@ function handleButtonClick(e) {
         case 'menu':
             MenuPage(); // Load the menu page
             break;
-        // case 'about':
-        //     AboutPage(); // Load the about page
-        //     break;
+        case 'contact':
+            ContactPage(); // Load the contact page
+            break;
         default:
             console.error('Unknown button ID:', buttonId);
     }
